@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-  int x, y;
+  int x, y, z;
   x = 9;
   y = x + 10;
-  printf("the number is %i\n", x + y);
+
+  printf("Write a number:");
+  scanf("%i", &z);
+
+  printf("the number is %i\n", x + y + z);
   return 0;
 }
